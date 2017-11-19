@@ -1,0 +1,48 @@
+
+	/*//Дифференцирование по гаусу (матрица 5на5) по y
+	for (int y = 2; y< dst.rows - 2; ++y)
+		for (int x = 2; x < dst.cols - 2; ++x) {
+		blue[y][x]= Gmatr[0]*(blue[y-2][x-2]+ blue[y-2][x+2])+
+			        Gmatr[1]*(blue[y-1][x-2]+ blue[y-1][x+2])+
+		         	Gmatr[2]*(blue[y][x-2]+ blue[y][x-1]+ blue[y][x]+ blue[y][x+1]+ blue[y][x+2])+
+			        Gmatr[3]*(blue[y-2][x-1]+ blue[y-2][x+1])+
+			        Gmatr[4]*(blue[y-2][x])+
+			        Gmatr[5]*(blue[y-1][x])+
+			        Gmatr[6]*(blue[y+2][x-2]+ blue[y+2][x+2])+
+			        Gmatr[7]*(blue[y+1][x-2]+ blue[y+1][x+2])+
+			        Gmatr[8]*(blue[y+2][x-1]+ blue[y+2][x+1])+
+			        Gmatr[9]*(blue[y+2][x])+
+			        Gmatr[10]*(blue[y+1][x])+
+		            Gmatr[11]*(blue[y-1][x-1]+ blue[y-1][x+1])+
+                    Gmatr[12]*(blue[y+1][x-1]+ blue[y+1][x+1]);
+
+		red[y][x]= Gmatr[0]*(red[y-2][x-2]+ red[y-2][x+2])+
+			        Gmatr[1]*(red[y-1][x-2]+ red[y-1][x+2])+
+		         	Gmatr[2]*(red[y][x-2]+ red[y][x-1]+ red[y][x]+ red[y][x+1]+ red[y][x+2])+
+			        Gmatr[3]*(red[y-2][x-1]+ red[y-2][x+1])+
+			        Gmatr[4]*(red[y-2][x])+
+			        Gmatr[5]*(red[y-1][x])+
+			        Gmatr[6]*(red[y+2][x-2]+ red[y+2][x+2])+
+			        Gmatr[7]*(red[y+1][x-2]+ red[y+1][x+2])+
+			        Gmatr[8]*(red[y+2][x-1]+ red[y+2][x+1])+
+			        Gmatr[9]*(red[y+2][x])+
+			        Gmatr[10]*(red[y+1][x])+
+		            Gmatr[11]*(red[y-1][x-1]+ red[y-1][x+1])+
+                    Gmatr[12]*(red[y+1][x-1]+ red[y+1][x+1]);
+
+		green[y][x]= Gmatr[0]*(green[y-2][x-2]+ green[y-2][x+2])+
+			        Gmatr[1]*(green[y-1][x-2]+ green[y-1][x+2])+
+		         	Gmatr[2]*(green[y][x-2]+ green[y][x-1]+ green[y][x]+ green[y][x+1]+ green[y][x+2])+
+			        Gmatr[3]*(green[y-2][x-1]+ green[y-2][x+1])+
+			        Gmatr[4]*(green[y-2][x])+
+			        Gmatr[5]*(green[y-1][x])+
+			        Gmatr[6]*(green[y+2][x-2]+ green[y+2][x+2])+
+			        Gmatr[7]*(green[y+1][x-2]+ green[y+1][x+2])+
+			        Gmatr[8]*(green[y+2][x-1]+ green[y+2][x+1])+
+			        Gmatr[9]*(green[y+2][x])+
+			        Gmatr[10]*(green[y+1][x])+
+		            Gmatr[11]*(green[y-1][x-1]+ green[y-1][x+1])+
+                    Gmatr[12]*(green[y+1][x-1]+ green[y+1][x+1]);
+
+		}
+	*/
