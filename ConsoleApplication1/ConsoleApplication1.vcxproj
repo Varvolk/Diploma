@@ -152,6 +152,8 @@
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="kasterization.h" />
+    <ClInclude Include="Klast2.h" />
     <ClInclude Include="myMatche.h" />
     <ClInclude Include="Work_With_Brisk.h" />
   </ItemGroup>
